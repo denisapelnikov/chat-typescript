@@ -1,0 +1,28 @@
+{
+  "name": "chat-typescript",
+  "version": "1.0.0",
+  "description": "Chat TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [
+    "chat",
+    "typescript"
+  ],
+  "author": "Denis Sapelnikov",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "firebase": "^8.3.0"
+  }
+}
